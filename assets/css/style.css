@@ -60,12 +60,6 @@ h3 {
   font-size: 22px;
 }
 /* header */
-
-@media screen and (max-width: 640px)
-#masthead {
-  position: static;
-}
-
 #masthead {
   position: fixed;
   z-index: 99;
@@ -76,6 +70,12 @@ h3 {
   background: #fff;
   border-bottom: 2px solid #ccc;
 }
+
+@media screen and (max-width: 640px)
+#masthead {
+  position: static;
+}
+
 #logo {
   float: left;
   width: 250px;
